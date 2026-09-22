@@ -1,0 +1,17 @@
+# 本地运行环境与敏感密钥
+config.php
+.env
+runtime/*
+!runtime/.gitkeep
+uploads/*
+!uploads/.gitkeep
+!uploads/README.md
+sitemap.xml
+sitemap.php
+
+# 系统日志与临时文件
+*.log
+*.lock
+*.tmp
+.DS_Store
+Thumbs.db

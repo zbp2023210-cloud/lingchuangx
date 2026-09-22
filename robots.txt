@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /?page=prompts
+Allow: /?page=apps
+Allow: /?page=agents
+Allow: /sitemap.xml
+Allow: /sitemap.php
+
+Disallow: /admin.php
+Disallow: /api.php
+Disallow: /?page=login
+Disallow: /?page=register
+Disallow: /?page=profile
+Disallow: /?page=history
+Disallow: /uploads/private/
+
+Sitemap: https://lingchuangx.com/sitemap.xml
